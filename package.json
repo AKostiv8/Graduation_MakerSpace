@@ -1,0 +1,29 @@
+{
+  "name": "smart_things",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AKostiv8/MakerSpace_Graduation.git"
+  },
+  "author": "makerspace",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AKostiv8/MakerSpace_Graduation/issues"
+  },
+  "homepage": "https://github.com/AKostiv8/MakerSpace_Graduation#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "crypto": "^1.0.1",
+    "express": "^4.16.2",
+    "firebase": "^4.10.1",
+    "firebaseauth": "^0.1.1",
+    "jsonwebtoken": "^8.2.1"
+  }
+}

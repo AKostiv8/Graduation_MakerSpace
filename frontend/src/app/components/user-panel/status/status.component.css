@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
+
+.management{
+  color:#ffab40;
+  font-weight: bold;
+}
+
+
+.messages{
+  margin-left: 14px;
+}
+
+.error-messages-types{
+  font-family: 'Ubuntu', sans-serif !important;
+  font-weight: bold;
+  color: #ee0002;
+}

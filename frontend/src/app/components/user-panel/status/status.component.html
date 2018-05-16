@@ -1,0 +1,39 @@
+<div class="card grey lighten-5 z-depth-3">
+  <div class="card-content black-text">
+    <span class="card-title management">Updating current tax</span>
+    <form [formGroup]="form" (submit)="onRegisterSubmit()" >
+      <div class="row">
+
+
+
+        <div class="input-field col s12 ">
+          <label for="tax" >Enter the new value</label>
+          <input  type="number" name="tax" autocomplete="off"  class="validate" formControlName="tax">
+        </div>
+
+
+
+
+
+        <div class="messages">
+
+          <ul class="error-messages-types">
+
+            <li *ngIf="form.controls.tax.errors?.required && form.controls.tax.dirty">*This field can't be empty</li>
+
+          </ul>
+
+        </div>
+
+        <div class="input-field col s12">
+          <button [disabled]="!form.valid || processing" class="btn right btn-large btn-register waves-effect waves-light" type="submit" name="action">Update
+            <i class="material-icons right">done</i>
+          </button>
+        </div>
+
+
+      </div>
+    </form>
+  </div>
+
+</div>

@@ -1,0 +1,11 @@
+/*.container{*/
+  /*background: white !important;*/
+/*}*/
+
+.distance{
+  margin-top: 50px;
+}
+:host .bg-color {
+  background-color: #e0f2f1;
+}
+

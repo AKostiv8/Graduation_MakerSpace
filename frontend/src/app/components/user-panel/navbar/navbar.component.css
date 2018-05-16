@@ -1,0 +1,11 @@
+/*.distance{*/
+  /*margin-left: 10px;*/
+  /*margin-right: 10px;*/
+/*}*/
+
+@media only screen and (min-width: 400px) {
+  .distance{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}

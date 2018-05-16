@@ -1,0 +1,60 @@
+#intro {
+  background: url('../../../../assets/img/keyboard.jpg') no-repeat center center ;
+  background-size: cover !important;
+}
+
+.top-nav-collapse {
+  background-color: #2e2e2e !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #2e2e2e !important;
+  }
+}
+
+#intro .h6 {
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+.hm-gradient .full-bg-img {
+  background: rgba(42, 27, 161, 0.7);
+  background: linear-gradient(45deg, #795548, rgba(29, 210, 177, 0.7) 100%);
+
+}
+
+@media (max-width: 450px) {
+  .margins {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+}
+
+#pricing .lead {
+  opacity: 0.7;
+}
+
+#pricing .powersocket {
+  background: url("../../../../assets/img/powersocket.png") no-repeat center center;
+}
+
+#pricing .coffeemachine {
+  background: url("../../../../assets/img/coffeemachine.png") no-repeat center center;
+}
+
+#pricing .lamp {
+  background: url("../../../../assets/img/lamp.png") no-repeat center center;
+}
+
+#pricing ul li {
+  font-size: 1.1em;
+}
+
+.fa-telegram:before {
+    color: black !important;
+}

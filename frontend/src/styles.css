@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+
+::-webkit-scrollbar {
+  width: 1px;  /* remove scrollbar space */
+  background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+  body{
+    margin: 0;
+    /*background: linear-gradient(-90deg, #9F9B44, #26a69a);*/
+    background: white;
+  }
+
+
+
+
